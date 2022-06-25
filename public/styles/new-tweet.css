@@ -71,3 +71,13 @@
   flex-direction: column;
   margin: auto;
 }
+
+#tweet-text {
+  background-color: #f4f1ec;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-width: 5px;
+  border-color: #545149;
+  width: 80%;
+}
