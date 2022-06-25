@@ -1,0 +1,36 @@
+.page-head {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c00b3;
+  /* background-image: url("https://www.transparenttextures.com/patterns/fabric-plaid.png") */;
+}
+/*avatar picture */
+.avatar  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+/* Username under avatar */
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Desktop website */
+@media only screen and (min-width: 1024px) {
+  .desktop-column {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  header.page-head {
+    display: flex;
+    width: 25%;
+    margin: 4em 1em 3em 1em;
+  }
+}

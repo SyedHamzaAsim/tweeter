@@ -1,0 +1,73 @@
+.counter.turnRed {
+  color: red;
+}
+
+.tweetBTN {
+  background-color: #1b38b9;
+  color: #f4f1ec;
+  margin-top: 15px;
+}
+
+.compose {
+  color: black;
+}
+
+.tweet {
+  border: 1px solid black;
+  margin-bottom: 50px ;
+}
+
+.tweet>main {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+#tweets-container {
+  display: flex;
+  width: 70%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.tweet>header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.flags {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flags :hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.pfp {
+  width: 30px;
+  height: auto;
+}
+
+.tweet>footer {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.error-msg {
+  display: none;
+  color: red;
+  display: flex;
+  width: 70%;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
