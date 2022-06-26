@@ -18,8 +18,8 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 
 ## Desktop Site
-
-
-
+!["screenshot of home page in desktop view"](https://github.com/SyedHamzaAsim/tweeter/blob/master/docs/tweeter-desktop.png?raw=true)
 
 ## Mobile Site
+
+!["screenshot of home page in Mobile view"](https://github.com/SyedHamzaAsim/tweeter/blob/master/docs/tweeter-mobile.png?raw=true)
